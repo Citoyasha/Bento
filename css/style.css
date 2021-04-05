@@ -78,14 +78,24 @@ body {
   width: 25px;
   height: 25px;
 }
+
 .wrap{
+  border: none;
+  align: center;
   background-color: var(--sfg);
-  margin: 10px;
 }
 
 .search {
-  width: 50vh;
+  width: 55vh;
   color: var(--fsg);
+}
+
+.buttonLink__search {
+  position: relative;
+  width: 30px;
+  height: 100%;
+  color: var(--fg);
+  cursor: pointer;
 }
 
 .container {
@@ -206,14 +216,6 @@ body {
   width: 23px;
   height: 23px;
   color: var(--fg);
-}
-
-.buttonLink__search {
-  width: 30px;
-  height: 30px;
-  color: var(--fg);
-  align: center;
-  cursor: pointer;
 }
 
 .buttonLink__link-1 {
