@@ -28,6 +28,7 @@
             id="inp"
           />
           <a
+            id="sbtn"
             target="_self"
             href=""
             onClick="this.href='https://searx.fmac.xyz/search?q='+document.getElementById('inp').value"
@@ -107,7 +108,7 @@
           target="_self"
           href="https://mail.google.com/mail/u/1/#inbox"
           class="list__link"
-          >Tunisia 88</a
+          >Tunisia88</a
         >
         <a
           target="_self"
@@ -152,6 +153,13 @@
     <script src="js/weather.js"></script>
     <script>
       feather.replace();
+      var input = document.getElementById("inp");
+      input.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+          event.preventDefault();
+          document.getElementById("sbtn").click();
+        }
+      }); 
     </script>
   </body>
 

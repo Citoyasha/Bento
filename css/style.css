@@ -81,8 +81,9 @@ body {
 
 .wrap{
   border: none;
-  align: center;
-  background-color: var(--sfg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search {
