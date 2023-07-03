@@ -213,6 +213,12 @@ body {
   width: 100%;
 }
 
+.buttonLink__search {
+  width: 19px;
+  height: 19px;
+  color: var(--fg);
+}
+
 .buttonLink__icon {
   width: 23px;
   height: 23px;

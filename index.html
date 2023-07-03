@@ -22,19 +22,21 @@
         <div class="wrap">
           <input
             class="search"
-            type="text"
-            placeholder="Search.."
+            type="search"
+            placeholder="Searx.."
             name="search"
             id="inp"
           />
-          <a
-            id="sbtn"
-            target="_self"
-            href=""
-            onClick="this.href='https://searx.fmac.xyz/search?q='+document.getElementById('inp').value"
-          >
-            <i class="buttonLink__search" data-feather="search"></i>
-          </a>
+        <div class="buttonLinkSearch">
+        <a
+          href=""
+          onClick="this.href='https://searx.fmac.xyz/search?q='+document.getElementById('inp').value"
+          target="_self"
+          class="buttonLink__link card buttonLink__link-1"
+        >
+          <i class="buttonLink__search" data-feather="search"></i>
+        </a>
+        </div>
         </div>
         <div class="clock">
           <div id="hour" class=""></div>
@@ -82,12 +84,37 @@
         >
           <i class="buttonLink__icon" data-feather="youtube"></i>
         </a>
+
         <a
           target="_self"
-          href="https://www.twitter.com/"
+          href="https://www.canva.com/"
+          class="buttonLink__link card buttonLink__link-3"
+        >
+          <i class="buttonLink__icon" data-feather="droplet"></i>
+        </a>
+
+        <a
+          target="_self"
+          href="https://www.spotify.com/"
+          class="buttonLink__link card buttonLink__link-4"
+        >
+          <i class="buttonLink__icon" data-feather="headphones"></i>
+        </a>
+
+        <a
+          target="_self"
+          href="https://web.telegram.org/"
           class="buttonLink__link card buttonLink__link-5"
         >
-          <i class="buttonLink__icon" data-feather="twitter"></i>
+          <i class="buttonLink__icon" data-feather="send"></i>
+        </a>
+
+        <a
+          target="_self"
+          href="https://drive.google.com/drive/u/0/my-drive"
+          class="buttonLink__link card buttonLink__link-6"
+        >
+          <i class="buttonLink__icon" data-feather="hard-drive"></i>
         </a>
       </div>
 
@@ -95,53 +122,48 @@
 
       <div class="card list list__1">
         <i class="list__head" data-feather="mail"></i>
-        <a target="_self" href="https://e.mail.ru" class="list__link"
-          >Mail.ru</a
-        >
+
         <a
           target="_self"
-          href="https://mail.google.com/mail/u/0/#inbox"
+          href="https://mail.tutanota.com/login"
           class="list__link"
-          >Personal</a
         >
+          Tutanota
+        </a>
+        
         <a
           target="_self"
           href="https://mail.google.com/mail/u/1/#inbox"
           class="list__link"
-          >Tunisia88</a
         >
+          Gmail 1
+        </a>
+
         <a
           target="_self"
           href="https://mail.google.com/mail/u/2/#inbox"
           class="list__link"
-          >University</a
         >
+        Gmail 2
+        </a>
+
+
         <a
           target="_self"
-          href="https://mail.google.com/mail/u/3/#inbox"
+          href="https://e.mail.ru"
           class="list__link"
-          >Freeways</a
         >
+          Mail.ru
+        </a>
+
       </div>
 
       <div class="card list list__2">
         <i class="list__head" data-feather="star"></i>
-        <a href="https://www.reddit.com" target="_self" class="list__link"
-          >Reddit</a
-        >
-        <a href="https://yts.mx/" target="_self" class="list__link">YTS</a>
-        <a
-          href="https://drive.google.com/drive/u/0/my-drive"
-          target="blank"
-          class="list__link"
-          >Google Drive</a
-        >
-        <a href="https://www.twist.moe" target="_self" class="list__link"
-          >Twist</a
-        >
-        <a href="https://aur.archlinux.org/" target="_self" class="list__link"
-          >AUR</a
-        >
+        <a href="https://www.deepl.com/translator" target="_self" class="list__link">Deepl</a>
+        <a href="https://www.reverso.net/spell-checker/french-spelling-grammar/" target="_self" class="list__link">Reverso</a>
+        <a href="https://chat.openai.com/" target="_self" class="list__link">ChatGPT</a>
+        <a href="https://www.speedtest.net/" target="_self" class="list__link">Speedtest</a>
       </div>
     </div>
 
